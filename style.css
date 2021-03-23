@@ -1,0 +1,16 @@
+
+.flex-container{
+display: flex;
+background-color: rgb(255, 94, 0);
+align-items: center;
+height: 1000px;
+}
+.flex-item {
+margin: 20px;
+background-color: orange;
+padding: 50px;
+
+}   
+.prem{
+height: 100px;
+}
