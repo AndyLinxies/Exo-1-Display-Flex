@@ -1,16 +1,16 @@
 
+body{
+    background-color: khaki;
+}
 .flex-container{
-display: flex;
-background-color: rgb(255, 94, 0);
-align-items: center;
-height: 1000px;
+display: flex; /*Obligatoire a mettre pour utiliser les autres proprietes. Met par defaut tout a coté de l'autre*/
+align-items: center; /*Les items ds le conteneur vont au centre sur l'axe Y*/
+height: 100vh;/*Le conteneur prend la taille totale de l'ecran*/
 }
 .flex-item {
-margin: 20px;
 background-color: orange;
-padding: 50px;
+margin: 5px; /*Doit se mettre sur chaque item, pas sur le container*/
+height: 17%;/*Pour qu'ils aient tous la même hauteur*/
+padding: 30px;/*Pour que le cadre soit espacé du texte*/
 
 }   
-.prem{
-height: 100px;
-}
